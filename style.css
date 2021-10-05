@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.hero-container {
+  background-color: #1f2937;
+}
+
+.header,
+.hero {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px 0;
+}
+
+.hero {
+  margin: 50px 200px;
+}
+
+.hero-text h1,
+.hero-text p,
+.hero-text button {
+  margin: 10px 0;
+}
+
+button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.links,
+.footer {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+
+h3 {
+  font-size: 24px;
+}
+.hero {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 50px;
+  flex: 1 1 auto;
+}
+
+.hero-img {
+  width: 500px;
+}
+
+.testimonial,
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 100px;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: light;
+}
+
+.quote-container {
+  width: 600px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.port-item {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+}
+
+.port-item div img {
+  width: 200px;
+  border: #3882f6 solid 5px;
+  border-radius: 10px;
+}
+
+.author {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cta {
+  padding: 100px 0;
+}
+
+.cta-container {
+  color: #f9faf8;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 50px 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.cta-container button {
+  border: #e5e7eb solid 3px;
+}
